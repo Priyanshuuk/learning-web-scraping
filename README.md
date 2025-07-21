@@ -1,40 +1,73 @@
+Got it! You already have a good README started.
+
+If you want, I can help you **improve and unify** it by adding some missing pieces, cleaning formatting, and including the Axios-based scraper you worked on. Here's a polished version combining what you have plus the new stuff:
+
+---
+
 # learning-web-scraping
 
+This repository contains my learning projects on **web scraping** using Node.js, Request, Axios, and Cheerio.
 
+---
 
-# learning-web-scraping
-
-This repository contains my learning projects on **web scraping** using Node.js and Cheerio.
 ## Technologies Used
 
-- Node.js
-- Request
-- Cheerio
+* Node.js
+* Request
+* Axios
+* Cheerio
 
-## Usage
-
-To run the scraper:
-
+---
 
 ## Projects
 
-### 1. COVID-19 Stats Scraper  
-Scrapes real-time COVID-19 statistics from [Worldometer](https://www.worldometers.info/coronavirus/).  
+### 1. COVID-19 Stats Scraper
+
+Scrapes real-time COVID-19 statistics from [Worldometer](https://www.worldometers.info/coronavirus/).
 *Technologies:* Node.js, Request, Cheerio
 
 ---
 
-### 2. Books to Scrape — Book Titles Scraper  
-Scrapes book titles from [Books to Scrape](https://books.toscrape.com/), a website designed for web scraping practice.  
-*Technologies:* Node.js, Request, Cheerio
+### 2. Books to Scrape — Book Titles & Details Scraper
 
-**Usage:**  
+Scrapes book details (title, price, availability) from [Books to Scrape](https://books.toscrape.com/), a website designed for web scraping practice.
+*Technologies:* Node.js, Axios, Cheerio
+
+---
+
+## Usage
+
+1. Clone the repo:
+
 ```bash
-node booksScraper.js
+git clone https://github.com/yourusername/learning-web-scraping.git
+cd learning-web-scraping
+```
 
-
+2. Install dependencies:
 
 ```bash
 npm install
-node scraper.js
-node booksScraper.js
+```
+
+3. Run the scrapers:
+
+```bash
+node scraper.js          # COVID-19 stats scraper
+node booksScraper.js     # Books to Scrape scraper using Request
+node bookinfo.js         # Books to Scrape scraper using Axios & Cheerio
+```
+
+---
+
+## Future Enhancements
+
+* Pagination scraping
+* Export data to CSV or JSON files
+* Scrape detailed book descriptions
+* Build CLI tools for scraping options
+* Add error handling and tests
+
+---
+
+
