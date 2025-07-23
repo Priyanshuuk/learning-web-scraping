@@ -1,11 +1,3 @@
-Got it! You already have a good README started.
-
-If you want, I can help you **improve and unify** it by adding some missing pieces, cleaning formatting, and including the Axios-based scraper you worked on. Here's a polished version combining what you have plus the new stuff:
-
----
-
-# learning-web-scraping
-
 This repository contains my learning projects on **web scraping** using Node.js, Request, Axios, and Cheerio.
 
 ---
